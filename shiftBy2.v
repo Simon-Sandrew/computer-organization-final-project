@@ -1,8 +1,11 @@
-module ShiftBy2 (out32, in32);
+module ShiftBy2 (D, Q);
 
-   input [31:0] in32;
-   output [31:0] out32;
+   input [31:0] D;
+   output reg [31:0] Q;
 
-    assign out32 = {in32[29:0], 2'b00};
+   always @(N, D) begin
+	reg [1:0] N = 2'b10;
+      Q = D >> N;
 
+   end
 endmodule

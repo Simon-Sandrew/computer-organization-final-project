@@ -1,8 +1,0 @@
-Part 1:
-https://www.fpga4student.com/2017/06/32-bit-pipelined-mips-processor-in-verilog-1.html
-
-Part 2:
-https://www.fpga4student.com/2017/06/32-bit-pipelined-mips-processor-in-verilog-2.html
-
-Part 3:
-https://www.fpga4student.com/2017/06/32-bit-pipelined-mips-processor-in-verilog-3.html

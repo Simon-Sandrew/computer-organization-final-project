@@ -1,5 +1,5 @@
-module signExtend (out32, in16);
+module signExtend (out32, in26);
+    input [26:0] in26;
     output [31:0] out32;
-    input [15:0] in16;
-    assign out32 = {{16{in16[15]}},in16};
+    assign out32 = {{26{in26[5]}},in26};
 endmodule
